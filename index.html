@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>录音转文字助手</title>
+  <meta name="description" content="专业语音转文字、视频转文字、语音翻译，文字转语音，高识别准确率的录音转文字软件">
+  <meta name="keywords" content="录音转文字助手,语音转文字,文字转语音,视频转文字,语音翻译,">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0069ff',
+            secondary: '#1f2e46',
+            'gray-subtitle': '#999999',
+            dark: '#1a1149',
+          },
+          fontFamily: {
+            sans: ['PingFangSC-Regular', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Tahoma', 'Arial', 'Microsoft YaHei'],
+            heading: ['Alibaba-PuHuiTi-B', 'sans-serif'],
+          },
+          width: {
+            'container': '1220px',
+          },
+          height: {
+            'container': '600px',
+          }
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="font-sans">
+  <main>
+    <!-- Hero 区域 -->
+    <div class="w-full bg-white min-h-[600px] flex items-center">
+      <div class="w-container mx-auto px-5 flex flex-col md:flex-row items-center justify-between">
+        <!-- 左侧内容 -->
+        <div class="w-full md:w-[500px] text-center md:text-left pt-16 md:pt-0">
+          <h1 class="text-[50px] font-heading text-primary leading-tight">录音转文字助手</h1>
+          <p class="text-[20px] text-gray-subtitle mt-2">录音实时转文字，导入外部音视频转文字</p>
+          <div class="mt-12 flex flex-row gap-4">
+            <a href="#download"
+              class="flex-1 md:flex-initial inline-flex items-center justify-center px-8 py-3 text-[20px] font-medium rounded-[4px] text-white bg-primary">
+              免费下载
+            </a>
+            <a href="https://docs.qq.com/doc/DZkNRdVdLbGViaGdU"
+              class="flex-1 md:flex-initial inline-flex items-center justify-center px-8 py-3 text-[20px] font-medium rounded-[4px] text-white bg-primary">
+              联系我们
+            </a>
+          </div>
+        </div>
+
+        <!-- 右侧图片 -->
+        <div class="mt-10 md:mt-0">
+          <img
+            src="https://lanhu-oss.lanhuapp.com/SketchPngd22ab640b473fb39cdff48e5da9596f3afb99f2a5cb8fd55ceca8d7bc66b61ad"
+            alt="录音转文字演示" class="w-[343px] h-[389px] object-contain">
+        </div>
+      </div>
+    </div>
+
+    <!-- 功能区域 -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-heading text-secondary text-center mb-12">
+          能做的不止录音转文字
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- 功能卡片 -->
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 135deg, #FFD472 0%, #FF903E 100%);">专业</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">语音转文字</h3>
+              <p class="text-gray-400">快速捕捉语音，精准转化为文字，快捷高效记录重要信息！</p>
+            </div>
+          </article>
+
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 135deg, #A7F1A4 0%, #64CCBB 100%);">专业</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">视频转文字</h3>
+              <p class="text-gray-400">上传录音文件，极速转化为清晰文字，帮你轻松整理文本！</p>
+            </div>
+          </article>
+
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 135deg, #FF9772 0%, #FF683E 100%);">爆品</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">文字转语音</h3>
+              <p class="text-gray-400">输入文字即可生成语音，多语种、多音色可选便捷又流畅！</p>
+            </div>
+          </article>
+
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 135deg, #FF8B72 0%, #FF3E3E 100%);">爆品</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">语音翻译</h3>
+              <p class="text-gray-400">实时语音翻译，多语言互译；打破壁垒，畅享无障碍交流！</p>
+            </div>
+          </article>
+
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 180deg, #6EB3F2 0%, #388EEF 100%);">爆品</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">AI对话</h3>
+              <p class="text-gray-400">智能对话，解答疑问，自然流畅，让沟通更高效，更贴心！</p>
+            </div>
+          </article>
+
+          <article class="bg-white rounded p-6 flex items-start">
+            <span
+              class="inline-block px-3 py-1 text-sm font-semibold text-white bg-primary rounded mb-4 flex-shrink-0 rounded-full"
+              style="background: linear-gradient( 147deg, #8CE7EF 0%, #4ACFFB 100%);">爆品</span>
+            <div class="ml-4">
+              <h3 class="text-xl font-medium text-secondary mb-3">AI写作</h3>
+              <p class="text-gray-400">高效生成文章，灵感无限助力表达，让写作更轻松更出彩！</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI功能区域 -->
+    <section class="pb-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-heading text-secondary text-center mb-12">
+          更多AI功能
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- AI功能卡片 -->
+          <article class="bg-white rounded p-8 text-center flex flex-col justify-between">
+            <img class="w-28 mx-auto mb-4" src="./assets/images/aign_01@2x.png" alt="AI问答对话">
+            <div>
+              <h3 class="text-xl font-medium text-secondary mb-3">AI问答对话</h3>
+              <p class="text-gray-400">智能交互，有问必答，对话畅自然，助你解决问题，随时陪伴交流</p>
+            </div>
+
+          </article>
+          <article class="bg-white rounded p-8 text-center flex flex-col justify-between">
+
+            <img class="w-28 mx-auto mb-4" src="./assets/images/aign_02@2x.png" alt="AI写作助手">
+            <div>
+
+              <h3 class="text-xl font-medium text-secondary mb-3">AI写作助手</h3>
+              <p class="text-gray-400">智能辅助，激发灵感；精准优化表达，提升写作效率，文章熠熠生辉</p>
+            </div>
+
+          </article>
+          <article class="bg-white rounded p-8 text-center">
+            <img class="w-28 mx-auto mb-4" src="./assets/images/aign_03@2x.png" alt="AI在线翻译">
+
+            <h3 class="text-xl font-medium text-secondary mb-3">AI在线翻译</h3>
+            <p class="text-gray-400">AI翻译跨越语言障碍，连接全球交流让沟通无国界，理解更简单</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-dark text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-sm">© 2025 YongHe. All rights reserved</p>
+        <a href="https://beian.miit.gov.cn" target="_blank" class="flex items-center gap-2 text-sm hover:opacity-80 transition-opacity">
+          <img
+            src="https://lanhu-oss.lanhuapp.com/SketchPng18b8cd585ed4e8dbf8264c14fcbae527346993756d5c716ecc92a49dde939e55"
+            alt="备案图标" class="w-5 h-5">
+          <span>渝ICP备2025051920号</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
