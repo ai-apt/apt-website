@@ -5,7 +5,7 @@
       {
         "appID": "N68ZWV443X.top.aispeechtotext.app",
         "paths": [
-          "/voice/*"
+          "/login/*"
         ]
       }
     ]
