@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "N68ZWV443X.top.aispeechtotext.app",
+        "paths": [
+          "/voice/*"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "N68ZWV443X.top.aispeechtotext.app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "N68ZWV443X.top.aispeechtotext.app"
+    ]
+  }
+}
