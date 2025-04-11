@@ -5,7 +5,8 @@
       {
         "appID": "N68ZWV443X.top.aispeechtotext.app",
         "paths": [
-          "/login/*"
+          "/voice/*",
+          "/qq_conn/*"
         ]
       }
     ]
@@ -20,4 +21,4 @@
       "N68ZWV443X.top.aispeechtotext.app"
     ]
   }
-}
+} 
